@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" style="text/css" href="css/reset.css">
+    <link rel="stylesheet" style="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapedn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Decodificador one/alura</title>
+ </head>
+    <body>
+
+     <header>
+         <div class="cabecalho">
+            <img src="img/logo-alura.png" alt="logo-img" class="logo-alura">
+         </div>
+         <div class="titulo">
+            <h1>Decodificador</h1>
+         </div>
+     </header>
+    
+     <main>  
+         <section class="tela-full">
+           <section class="container-in">
+
+              <div class="display-principal">
+                  <textarea class="display-0" id="input-entrada" placeholder="Digite sua mensagem" cols="40" rows="10" style="resize: none;"></textarea>
+              </div>
+              <div class="botao-principal">
+                  <h5>&#33;Utilizar somente letrás minúsculas e sem acento.</h5>
+                 <input type="button" class="botao-codificar" id="btn-codificar" value="Codificar">
+                 <input type="button" class="botao-decodificar" id="btn-decodificar" value="Decodificar">
+              </div>
+                
+            </section>
+
+            <section class="container-out">
+                <div class="display-secundario">
+                  <textarea class="display-1" id="input-saida" cols="40" rows="10" style="resize: none;"></textarea>
+              </div>
+              <div class="botao-secundario">
+                 <input type="button" class="botao-copiar" id="btn-copiar" value="Copiar">
+              </div>
+            </section>
+         </section>
+            
+
+        </main>
+
+     <footer>
+
+      <section class="link-tree">
+         
+         <ul class="ul-tree">
+            <li><a href="https://www.linkedin.com/in/rafael-moreiram/"><img src="./img/icone-github.png" class="git" alt="git-hub"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/RafaelMatos09"><img src="./img/icone-linkedin.png" class="linkedin" alt="linkedin"><i class="fa fa-github"></i></a></li>
+         </ul>
+      </section>
+        
+     </footer>
+     
+     <script type="text/javascript" src="scripts/codificador.js"></script>
+     
+    </body>
+</html> 
