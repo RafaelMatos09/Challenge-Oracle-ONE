@@ -1,5 +1,5 @@
 # Challenge-Oracle-ONE
- Desafio para criar uma pagina em HTML,CSS e JS:
+ Desafio para criar um decodificador de texto, pagina feita em HTML,CSS e JS:
  
  - Utilizar apenas com letras minúsculas
  - Não utilizar letras com acentos nem caracteres especiais
