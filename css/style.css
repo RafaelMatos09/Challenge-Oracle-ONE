@@ -306,12 +306,3 @@ footer {
     height: 40px;
 }
 
-@media screen and (max-width: 480px) {
-
-    main, .tela-full, .container-in, .display-0, .botao-principal, .container-out, .display-1, .botao-secundario {
-
-        width: auto;
-        margin: auto;
-    }
-   
-}
