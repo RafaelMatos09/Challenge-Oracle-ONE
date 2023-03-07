@@ -306,3 +306,27 @@ footer {
     height: 40px;
 }
 
+@media only screen and (max-width: 767px) {
+  
+  
+  body {
+    font-size: 16px;
+  }
+  .display-0,
+  .display-1 {
+    font-size: 14px;
+  }
+  .botao-principal,
+  .botao-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .botao-codificar,
+  .botao-decodificar,
+  .botao-copiar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
