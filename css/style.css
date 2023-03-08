@@ -19,7 +19,7 @@ body {
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     
@@ -51,7 +51,7 @@ main {
 .tela-full {
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
     width: 70%; /*70%*/
     max-width: 800px;
